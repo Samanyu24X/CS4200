@@ -1,0 +1,70 @@
+// 3 OUTPUTS FOR GENETIC ALGORITHM, THEN 3 OUTPUTS FOR HILL CLIMBING //
+
+-- GENETIC EXAMPLE 1 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+2
+Testing Genetic Algorithm
+Solution found! [ 2  5  3  0  7  4  6  1 ] with 0 crosses.
+Time elapsed: 69
+
+-- GENETIC EXAMPLE 2 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+2
+Testing Genetic Algorithm
+Solution found! [ 2  5  3  1  7  4  6  0 ] with 0 crosses.
+Time elapsed: 117
+
+-- GENETIC EXAMPLE 3 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+2
+Testing Genetic Algorithm
+Solution found! [ 6  2  7  1  4  0  5  3 ] with 0 crosses.
+Time elapsed: 162
+
+-- HILL CLIMBING EXAMPLE 1 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+1
+Testing Steepest Ascent Hill-Climbing
+Time elapsed for 10000.0 cases: 1450
+Total neighbors generated = 2277576
+Cases passed: 1469.0/10000.0, = 14.69%
+
+-- HILL CLIMBING EXAMPLE 2 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+1
+Testing Steepest Ascent Hill-Climbing
+Time elapsed for 10000.0 cases: 1496
+Total neighbors generated = 2282616
+Cases passed: 1481.0/10000.0, = 14.81%
+
+-- HILL CLIMBING EXAMPLE 3 --
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 2'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\4f318ee454df1cc07a645fac50916770\redhat.java\jdt_ws\Project 2_38694131\bin' 'Main' 
+Welcome to 8-Queen. Pick an algorithm option
+1) Steepest Ascent Hill-Climbing
+2) Genetic Algorithm
+1
+Testing Steepest Ascent Hill-Climbing
+Time elapsed for 10000.0 cases: 1382
+Total neighbors generated = 2278080
+Cases passed: 1441.0/10000.0, = 14.41%
