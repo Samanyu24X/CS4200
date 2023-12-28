@@ -1,0 +1,384 @@
+-- SAMPLE OUTPUT --
+
+// TEST CASE WITH SOLUTION DEPTH < 6 //
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\dd6896f962286759b5bc2616000577b3\redhat.java\jdt_ws\project1_9e3e8e37\bin' 'Runner' 
+Welcome to 8-Puzzle
+What would you like to do?
+1) Enter a puzzle configuration
+2) Generate a random puzzle
+3) Read in a puzzle from a file
+1
+Enter your puzzle configuration as three lines, row by row
+125
+348
+670
+
+Attempting to solve using H1...
+
+Solved!
+
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H1 Approach solved puzzle in 12ms, in 4 steps and generated 10 nodes.
+
+Attempting to solve using H2...
+
+Solved!
+
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H2 Approach solved puzzle in 4ms, in 4 steps and generated 10 nodes.
+
+// TEST CASE WITH SOLUTION DEPTH > 6 and < 12 //
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\dd6896f962286759b5bc2616000577b3\redhat.java\jdt_ws\project1_9e3e8e37\bin' 'Runner' 
+Welcome to 8-Puzzle
+What would you like to do?
+1) Enter a puzzle configuration
+2) Generate a random puzzle
+3) Read in a puzzle from a file
+1
+Enter your puzzle configuration as three lines, row by row
+125
+408
+367
+
+Attempting to solve using H1...
+
+Solved!
+
+[ 1 2 5 ]
+[ 4 0 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 4 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 0 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H1 Approach solved puzzle in 14ms, in 8 steps and generated 24 nodes.
+
+Attempting to solve using H2...
+
+Solved!
+
+[ 1 2 5 ]
+[ 4 0 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 4 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 0 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H2 Approach solved puzzle in 6ms, in 8 steps and generated 22 nodes.
+
+// TEST CASE WITH SOLUTION DEPTH > 12 //
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1>  c:; cd 'c:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Project 1\project1'; & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\dd6896f962286759b5bc2616000577b3\redhat.java\jdt_ws\project1_9e3e8e37\bin' 'Runner' 
+Welcome to 8-Puzzle
+What would you like to do?
+1) Enter a puzzle configuration
+2) Generate a random puzzle
+3) Read in a puzzle from a file
+1 
+Enter your puzzle configuration as three lines, row by row
+265
+187
+430
+
+Attempting to solve using H1...
+
+Solved!
+
+[ 2 6 5 ]
+[ 1 8 7 ]
+[ 4 3 0 ]
+
+--------------
+[ 2 6 5 ]
+[ 1 8 0 ]
+[ 4 3 7 ]
+
+--------------
+[ 2 6 5 ]
+[ 1 0 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 2 0 5 ]
+[ 1 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 0 2 5 ]
+[ 1 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 6 8 ]
+[ 0 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 6 8 ]
+[ 3 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 0 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 4 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 0 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H1 Approach solved puzzle in 26ms, in 16 steps and generated 1329 nodes.
+
+Attempting to solve using H2...
+
+Solved!
+
+[ 2 6 5 ]
+[ 1 8 7 ]
+[ 4 3 0 ]
+
+--------------
+[ 2 6 5 ]
+[ 1 8 0 ]
+[ 4 3 7 ]
+
+--------------
+[ 2 6 5 ]
+[ 1 0 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 2 0 5 ]
+[ 1 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 0 2 5 ]
+[ 1 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 6 8 ]
+[ 4 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 6 8 ]
+[ 0 3 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 6 8 ]
+[ 3 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 4 0 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 0 4 8 ]
+[ 3 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 0 6 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 0 7 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 8 ]
+[ 6 7 0 ]
+
+--------------
+[ 1 2 5 ]
+[ 3 4 0 ]
+[ 6 7 8 ]
+
+[ 1 2 0 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 1 0 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+--------------
+[ 0 1 2 ]
+[ 3 4 5 ]
+[ 6 7 8 ]
+
+H2 Approach solved puzzle in 13ms, in 16 steps and generated 103 nodes.
+
+// END TEST CASES //
