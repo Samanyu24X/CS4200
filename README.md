@@ -1,0 +1,1 @@
+This repository contains the three projects I worked on while taking CS4200 Artificial Intelligence at Cal Poly Pomona. Each project was done in Java and contains a report detailing my findings and experience working on it.
